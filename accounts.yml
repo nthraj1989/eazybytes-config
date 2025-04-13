@@ -1,0 +1,15 @@
+
+build:
+  version: "3.0"
+
+#read this property using @ConfigurationProperty.
+#This is the recommended way if we have more number of properties to be read from yaml file.
+#If there is less number of proprty in yaml use @Value or @Environmet to read the property
+accounts:
+  message: "Welcome to MyBank"
+  contactDetails:
+    name: "John Doe -Developer"
+    email: "raz@gmail.com"
+  onCallSupport:
+    -123456789
+    -987654321
