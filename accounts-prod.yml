@@ -1,5 +1,6 @@
 build:
   version: "1.0"
+  active: "git"
 
 accounts:
   message: "Welcome to EazyBank accounts related prod APIs "
